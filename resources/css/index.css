@@ -1,0 +1,77 @@
+body {
+   background-image: url("../images/pattern.jpeg");
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100%;
+}
+
+* {
+   font-family: Helvetica; 
+}
+
+header {
+   background-color: #f8f9fa00;
+   padding: 10px 16px;
+   text-align: center;
+   position: sticky;
+   top: 0;
+   width: 100%;
+   z-index: 1000;   
+}
+
+h1 {
+   font-family: Helvetica;
+   color: khaki; 
+   font-size: 100px;
+   font-weight: bold; 
+   text-align: center;
+   margin: 0;
+   position: fixed;   
+}
+
+h2 {
+   color: white; 
+   font-size: 32px;
+   font-weight: bold;
+}
+
+p {
+   display: inline-block
+   float: right;
+}
+
+img {
+   float: left;
+   padding-right: 20px;
+}
+
+#brushes {
+   display: inline-block; 
+   background-color: rgba(0, 250, 154, 0.5);
+   margin-top: 125px;
+   z-index: .5;
+   padding: 0 20px 20px 20px;
+   width: 100%;
+   position: sticky;
+}
+
+#frames {
+   display: inline-block; 
+   background-color: rgba(240, 128, 128, 0.5);
+   z-index: .5;
+   padding: 0 20px 20px 20px;
+   width: 100%;
+}
+
+#paint {
+   display: inline-block; 
+   background-color: rgba(135, 207, 235, 0.5);
+   z-index: .5;
+   padding: 0 20px 20px 20px;
+   width: 100%;
+}
+
+.cost {
+   color: blue;
+   font-weight: bold;   
+}
